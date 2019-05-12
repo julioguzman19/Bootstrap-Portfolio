@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Bootsrap-Portfolio</title>
+
+    <!-- Referencing Bootstrap so we can utilize their code -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<body>
+        
+    <div class="container">
+        
+        <!--Name and Nav Row: bg-light is for the background color should i add this class to row? no cuz will affect my namge bg-->
+        <!-- justify-content-end will alighn it to the right -->
+        <!-- Question: is the below fine or do we prefer <ul> & <li> -->
+        <div class="row">
+            
+            <div class="col-lg-2 bg-info">
+                <h1>Julio</h1>
+            </div>
+
+            <div class="col-lg-10 bg-gradient-light">
+                <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+                <a class="navbar-brand" href="index.html">About</a>
+                <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+                <a class="navbar-brand" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        
+        </div>
+
+        <!-- Blank Row: p is adding padding and bg-secondary just choosing color for now to distinct the difference -->
+        <div class="row">
+                <div class="col-lg-12 bg-secondary p-4">
+                    <h4>This color and text will be removed just keeping it for visual blank row</h4>
+                </div>
+        </div>
+
+        <!-- About Me Row -->
+        <div class="row">
+                <div class="col-lg-12">
+                    <h2>Contact</h2>
+                </div>
+        </div>
+
+
+
+    <!-- Footer Row: Note this is outside the container -->
+    <div class="row">
+        <div class="col-lg-12">
+            <footer class="footer py-3 fixed-bottom text-center bg-secondary border-top border-info">
+        
+                    <span class="text-white">@CopyrightJulio2019</span>
+        
+            </footer>
+        </div>
+    </div>
+</body>
+
+
+</html>
+<!-- Questions -->
+<!-- Question: is the below fine or do we prefer <ul> & <li> -->
