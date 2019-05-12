@@ -16,24 +16,30 @@
         <!-- justify-content-end will alighn it to the right -->
         <!-- Question: is the below fine or do we prefer <ul> & <li> -->
     <div class="container">
-
-            <div class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
                 <a class="navbar-brand" href="#">About</a>
                 <a class="navbar-brand" href="#">Portfolio</a>
                 <a class="navbar-brand" href="#">Contact</a>
+                </nav>
             </div>
-
-         <div class="row">
-            <div class="card col-lg-9" style="width: 18rem;">
-            <img class="img img-thumbnail" src="http://placehold.it/200x200" >
-            </div>
-         </div>
+        </div>
 
         <div class="row">
-            <div class="card-body col-lg-12">
-                <!-- dont need this just a title aboe the text<h5 class="card-title">Card title</h5> -->
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sed perferendis harum doloremque, assumenda repellat, quas aliquam quia id excepturi beatae maxime consequuntur sint, illo obcaecati odio soluta atque reiciendis?</p>
-                <!--dont need this button <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;">
+                        <img class="img img-thumbnail" src="http://placehold.it/200x200" >
+                </div>       
+            </div> 
+            
+            <div class="col-sm-6">
+                <div class="card-body">
+                    <!-- dont need this just a title aboe the text<h5 class="card-title">Card title</h5> -->
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sed perferendis harum doloremque, assumenda repellat, quas aliquam quia id excepturi beatae maxime consequuntur sint, illo obcaecati odio soluta atque reiciendis?</p>
+                    <!--dont need this button <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
             </div>
         </div>
 
@@ -41,4 +47,14 @@
 
     </div>
 </body>
+
+<footer class="page-footer font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">@CopyrightJulio2019
+          <a href="https://mdbootstrap.com/education/bootstrap/"></a>
+        </div>
+        <!-- Copyright -->
+      
+</footer>
 </html>
